@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS customer;
+
+CREATE TABLE customer (
+  customerId  VARCHAR(250)  PRIMARY KEY,
+  firstName VARCHAR(250) NOT NULL,
+  lastName VARCHAR(250) NOT NULL,
+  pan VARCHAR(250) DEFAULT NULL
+);
+
+
+
+DROP TABLE IF EXISTS bankaccount;
+
+CREATE TABLE bankaccount (
+  accountNumber  VARCHAR(250)  PRIMARY KEY,
+  customer VARCHAR(250) NOT NULL,
+  balance VARCHAR(250) NOT NULL,
+  accountType VARCHAR(250) DEFAULT NULL,
+  accountStatus VARCHAR(250) DEFAULT NULL
+);
