@@ -9,8 +9,6 @@ public interface TransferModeStrategy {
 	
 	TransferMode getTransferMode();
 	
-	//void validate(MoneyTransferRequest moneyTransferRequest);
-	
 	MoneyTransferResponse processPayment(MoneyTransferRequest moneyTransferRequest);
 
 }
