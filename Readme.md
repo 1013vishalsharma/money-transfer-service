@@ -17,7 +17,7 @@ A simple restful service to transfer money between two accounts and check detail
 - open a terminal or cmd in the directory where you have the project
 - run the following command on the prompt: **mvn clean install**
 - wait till the build is completed and successful
-- run the following command on the prompt: **java -jar target/account-details-service-0.0.1-SNAPSHOT.jar**
+- run the following command on the prompt: **java -jar target/money-transfer-service-0.0.1-SNAPSHOT.jar**
 - service should be up and running, you can test via postman
 
 ### Docker Deployment
