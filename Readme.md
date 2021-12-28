@@ -37,7 +37,7 @@ to get health of the application
 	GET /accounts/{accountNumber}
 accountNumber: account number for which you want the details
 
-	POST /transfer
+	POST /transfers
 to transfer money between two accounts
 
 More documentation related to API's can be found here
